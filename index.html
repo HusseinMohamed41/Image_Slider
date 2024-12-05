@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Js Slider </title>
+  <!-- Render all elements normally -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Fonts awesome library -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <!-- main  css file -->
+  <link rel="stylesheet" href="css/slider.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Jomhuria&family=Open+Sans:wght@300;400;500;600;700;800&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <i class="fa-regular fa-angle-left button" id="prev"></i>
+    <div class="image-container">
+      <div class="image-box">
+        <img src="images/image1.jpg" alt="" draggable="false" />
+        <img src="images/image2.jpg" alt="" draggable="false" />
+        <img src="images/image3.jpg" alt="" draggable="false" />
+        <img src="images/image4.jpg" alt="" draggable="false" />
+      </div>
+    </div>
+    <i class="fa-regular fa-angle-right button" id="next"></i>
+    <span id="indicators" class="indicators"></span>
+  </div>
+  <script src="slider.js">
+  </script>
+</body>
+
+</html>
